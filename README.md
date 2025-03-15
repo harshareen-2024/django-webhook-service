@@ -22,14 +22,15 @@ A Django-based webhook service that provides user authentication, account manage
 ⚙️ Installation
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/django-webhook-service.git
+git clone https://github.com/harshareen-2024/django-webhook-service.git
+
 cd django-webhook-service
 
 2️⃣ Set Up a Virtual Environment
 
 python3 -m venv venv
 source venv/bin/activate  
-# On Windows use: venv\Scripts\activate
+On Windows use: venv\Scripts\activate
 
 3️⃣ Install Dependencies
 pip install -r requirements.txt
@@ -45,7 +46,7 @@ python manage.py migrate
 python manage.py runserver
 
 
-API Endpoints:
+**API Endpoints**
 Authentication APIs
 Account Management APIs
 Account Member APIs
@@ -53,7 +54,7 @@ Destination APIs
 Log APIs
 Webhook Data API
 
-🚀 Technologies Used
+**🚀 Technologies Used**
 
 Django & Django REST Framework for backend API
 
