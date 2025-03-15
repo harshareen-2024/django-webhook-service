@@ -1,31 +1,27 @@
 Django==4.2.13  # Core Django framework
-djangorestframework== 3.15.2 # Django REST Framework for API development
-djangorestframework-simplejwt==5.3.1 # JWT authentication for secure login/signup
-django-cors-headers== 4.4.0  # Handling CORS for frontend integration
-django-environ==0.11.2  # Environment variable management
-gunicorn==21.2.0  # Production WSGI server (if deploying)
-whitenoise==6.6.0  # Static file serving in production
+djangorestframework== 3.15.2
+djangorestframework-simplejwt==5.3.1
+django-cors-headers== 4.4.0  
+django-environ==0.11.2 
+gunicorn==21.2.0  
+whitenoise==6.6.0 
 
-# Database (choose one based on your setup)
-psycopg2-binary==2.9.9  # PostgreSQL database adapter (if using PostgreSQL)
-mysqlclient==2.2.0  # MySQL adapter (if using MySQL)
-
-# Celery & Redis (for asynchronous processing)
-celery==5.3.6  # Task queue for async processing
-redis==5.0.1  # Redis as message broker for Celery
+# Celery & Redis 
+celery==5.3.6  
+redis==5.0.1  
 
 # API Documentation
-drf-yasg==1.21.10  # Swagger API documentation for DRF
+drf-yasg==1.21.10  
 
 # Performance & Caching
-django-redis==5.4.0  # Redis caching
-djangorestframework-camel-case==1.4.2  # Converts JSON keys to camelCase
-django-filter==24.3  # Advanced filtering for APIs
+django-redis==5.4.0  
+djangorestframework-camel-case==1.4.2  
+django-filter==24.3  
 
 # Testing
-pytest-django==4.5.2  # Django testing framework
-coverage==7.4.3  # Code coverage for tests
+pytest-django==4.5.2  
+coverage==7.4.3 
 
 # Logging & Monitoring
-sentry-sdk==1.44.0  # Error tracking with Sentry
+sentry-sdk==1.44.0  
 
