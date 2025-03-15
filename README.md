@@ -25,6 +25,13 @@ A Django-based webhook service that provides user authentication, account manage
 git clone https://github.com/harshareen-2024/django-webhook-service.git
 
 cd django-webhook-service
+Download required packages 
+python manage.py runserver
+Starting development server at http://127.0.0.1:8000/
+
+
+![image](https://github.com/user-attachments/assets/af316af5-973b-4b95-bef7-d9b85f73f47a)
+
 
 2️⃣ Set Up a Virtual Environment
 
