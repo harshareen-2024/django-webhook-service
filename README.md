@@ -64,10 +64,15 @@ python manage.py runserver
 **API Endpoints**
 
 Authentication APIs
+
 Account Management APIs
+
 Account Member APIs
+
 Destination APIs
+
 Log APIs
+
 Webhook Data API
 
 **🚀 Technologies Used**
